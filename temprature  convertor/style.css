@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Mulish", sans-serif;
+    
+}
+
+body {
+    width : 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display:grid;
+    place-items:center;
+    background-image:linear-gradient(white,skyblue, blue);
+    background-image:linear-gradient(black,white, skyblue);
+    background-image:url(temp.jpg);
+
+}
+
+form {
+    
+    border:5px solid black;
+    border-radius:5%;
+    padding:100px;
+    /* box-shadow: 3px 3px  green; */
+  
+    background-image:linear-gradient(black,white, skyblue);
+    background-image:linear-gradient(rgb(116, 116, 116),skyblue, blue);
+  
+}
+
+label {
+    font-size:35px;
+    margin:5px;
+}
+
+input{
+    font-size:large;
+    margin:5px;
+}
+
+span {
+    text-align:center;
+    margin:5px;
+    margin-left:120px;
+    font-size:30px;
+}
